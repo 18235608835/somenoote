@@ -1,0 +1,64 @@
+<!-- 日记导航 -->
+<nav class="navbar navbar-inverse" role="navigation" id="dao">
+
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="">somenote</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="搜索" ng-model="name">
+        </div>
+        <button type="submit" class="btn btn-default" id="tui">搜索</button>
+    
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+<!-- 个人日记 -->
+<div class="panel panel-default" id="som" ng-repeat='x in data | filter:name'>
+  <div class="panel-heading"><div class="titl">{{x.title}}</div><div class="da"><span class="glyphicon glyphicon-remove" id="s" ng-click="xx(x)"></span><span class="glyphicon glyphicon-pencil" id="b" ui-sref="si({id:x.id,title:x.title,content:x.content})"></span></div></div>
+  <ul class="list-group">
+    <li class="list-group-item">2016-10-24</li>   
+  </ul>
+  <div class="panel-body">
+    <p>{{x.content}}</p>
+  </div>
+</div>
+
+
+
+
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" id="jia" ng-click="amend()">
+  <span class="glyphicon glyphicon-plus" id="j"></span>
+</button>
+<div ng-show="xianshi" id="t">
+<p class="zj">title:</p>
+<textarea class="form-control" rows="1" ng-model="updata.title" id="title"></textarea>
+
+<p class="pp">content:</p>
+<textarea class="form-control" rows="3" ng-model="updata.content" id="cont"></textarea>
+<button type="button" class="btn btn-warning" ng-click="add()" id="bu">增加</button>
+</div>
+
+
+<span class="glyphicon glyphicon-backward" id="left" ng-click="left()"></span>
+<span class="glyphicon glyphicon-forward" id="right" ng-click="right()"></span>
+
+
+
+
+
+
+
+
+

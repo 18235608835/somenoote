@@ -1,0 +1,168 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body{font-family:"微软雅黑","黑体";
+  padding: 0;
+  background: #aaa;
+}
+ul li{list-style: none;}
+.lie{list-style: none;}
+.act{font-weight: bold;}
+.tu{float: left;}
+.box{float: left;}
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.bj{width: 802px;height: 518px;margin: 0 auto;}
+#box{width: 300px; margin: 108px auto;}
+#ri{font-weight: bold;}
+/* Custom page header */
+.header{
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3{
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+#som{width: 500px;margin: 0 auto;width: 416px;height: 240px;
+     margin-top: 20px;}
+#ps{margin-top: 5px;}
+#ps1{margin-top: 5px;}
+#jia{border-radius: 50%;
+     background: #ccc;
+     width: 50px;
+     height: 50px;
+     position: fixed;
+     border: #ccc;
+     z-index: 999;
+     bottom: 0px;
+     left: 50%}
+#j{margin-left: 6%;
+   margin-top: 16%;
+   }
+.titl{float: left;}  
+.da{float: right;}
+.panel-heading{height: 50px;}
+.divv{width: 801px;
+      height: 518px;
+      margin: 0 auto;
+      }
+#left{width: 50px;
+      height: 50px;
+      margin-left: 462px;
+      margin-top: 10px;}
+#dao{width: 418px;
+     margin: 0 auto}
+
+#b{margin-left: 25px;}
+#tui{position: absolute;left: 350px;top: 7px;}
+#t{width: 416px;height: 240px;
+  position: fixed;
+  top: 30%;
+  left: 36%;
+  background: #ccc;}
+.pp{margin-top: 10px;width: 50px;float: left;margin-left: 21px;}
+#bu{margin-left: -40px;
+    margin-top: 178px;}
+.zj{margin-top: 20px;width: 60px;margin-left: 27px;float: left;}
+#xiu{width: 50px;height: 40px;margin-top: 40px;margin-left: 370px;}
+#right{margin-left: 356px;}
+#title{width: 320px;
+       height: 34px;
+       float: left;
+       margin-left: -60px;
+       margin-top: 49px;}
+#cont{width: 320px;
+       height: 34px;
+       float: left;
+       margin-top: 40px;
+       margin-left: -45px;
+      }
+#bian-t{width: 366px;
+        margin-top: 90px;
+        margin-left: -33px;
+        float: left;
+        height: 40px;}
+
+#bian-c{width: 366px;
+        margin-top: 78px;
+        margin-left: -55px;
+        float: left;
+        height: 40px;}
+.bian-tit{float: left;
+          margin-top: 40px;
+          margin-left: 60px;}
+.bian-p{float: left;
+        margin-left: 52px;
+        margin-top: 26px}
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+<div class="bj">
+<div class="container" id="box">
+
+      <form class="form-signin" role="form" name='form'>
+        <h2 class="form-signin-heading" id="ri">个人日记</h2>
+        <input type="text" class="form-control" placeholder="name"  autofocus id="na" ng-model="updata.username" >
+        <input type="password" class="form-control" placeholder="Password" ng-model="updata.password"  id="ps">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me" ng-model="abc" ng-checked="abc" >me
+          </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit" ng-click="denglu()" ng-disabled='form.$invalid'>登录</button>
+        <button class="btn btn-lg btn-primary btn-block" type="submit" ui-sref='er'>注册</button>
+      </form>
+
+</div>
+</div>
